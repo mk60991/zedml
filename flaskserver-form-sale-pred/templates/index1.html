@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JTS Sales Prediction</title>
+</head>
+<body>
+<h2>Please enter sales features for prediction:</h2>
+	
+	<form method= "POST" action="/results">
+
+
+			<ul >
+
+					<li id="li_1" >
+		<label class="description" for="element_1">year </label>
+		<div>
+			<input id="element_1" name="year" class="element text small" type="text" maxlength="255" value=""/>
+		</div>
+		</li>		<li id="li_2" >
+		<label class="description" for="element_2">month </label>
+		<div>
+			<input id="element_2" name="month" class="element text small" type="text" maxlength="255" value=""/>
+		</div>
+		</li>		<li id="li_3" >
+		<label class="description" for="element_3">day </label>
+		<div>
+			<input id="element_3" name="day" class="element text small" type="text" maxlength="255" value=""/>
+		</div>
+	
+	
+		
+	
+		</li>
+
+
+			</ul>
+
+		
+		<div>
+			<input type=submit value='Predict' name='submit_btn'>
+		</div>
+	</form>
+
+
+</body>
+</html>
